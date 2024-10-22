@@ -8,7 +8,7 @@
 # The user will select the language they would like to translate to 
 # Create a Python function
 
-
+# Define a function
 def translate_to_french():
     # Declare an empty dictionary
     french = {}

@@ -6,7 +6,7 @@
 # and calculate the sume of those two numbers
 # Display on the screen:  the sum of number 1 and number2 is: sum
 
-
+# Define a function
 def calc_num():
     # This function will calculate the sum of 2 numbers
     #print(f"The sum of {answer1} and {answer2} is:  {result}")
