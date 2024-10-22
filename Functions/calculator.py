@@ -9,14 +9,16 @@
 # Define a function
 def calc_num():
     # This function will calculate the sum of 2 numbers
-    #print(f"The sum of {answer1} and {answer2} is:  {result}")
-    return f"The sum of {answer1} and {answer2} is:  {result}"
-
-# GLOBAL VAR
-answer1 = int(input("Please provide a whole number:  "))
-answer2 = float(input("Please provide a decimal number:  "))
-result = answer1 + answer2
-
+    
+    # Get user input inside the function
+    answer1 = int(input("Please provide a whole number:  "))
+    answer2 = float(input("Please provide a decimal number:  "))
+    
+    # Calculate the result
+    result = answer1 + answer2
+    
+    # Return the formatted result
+    return f"The sum of {answer1} and {answer2} is: {result}"
 
 # Main
-calc_num()
+print(calc_num())
