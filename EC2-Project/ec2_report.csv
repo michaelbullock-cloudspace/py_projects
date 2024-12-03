@@ -1,0 +1,3 @@
+instance_name,instance_type,image_id,state
+ec2-created-by-python_1,t3.micro,ami-0166fe664262f664c,running
+ec2-created-by-python_2,t3.micro,ami-0166fe664262f664c,running
